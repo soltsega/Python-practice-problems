@@ -319,3 +319,9 @@ def main():
 if __name__ == "__main__": 
     main()
 
+
+# is_disjoint() method: to check if the sets are mulually exclusive
+sets1 = (2,3,4,5)
+sets2 = (3,4,5,8)
+print(sets1.isdisjoint(sets2))  # False
+
