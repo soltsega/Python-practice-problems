@@ -37,3 +37,11 @@ print(de)  # will output deque([5, 0, 2, 3, 4])
 # 6. reverse()
 de.reverse()  # will reverse the elements in the deque
 print(de)
+
+
+
+# final note
+# why deque is better that list and what are the tradeoffs
+# deque is faster than list: the time complexity of the operations that can be performed on a deque is O(1) for adding and removing elements from both ends of the queue, while the time complexity of the operations that can be performed on a list is O(n) for adding and removing elements from both ends of the list.
+# deque is more memory efficient than list: the space complexity of a deque is O(n) for storing n elements in the deque, while the space complexity of a list is O(n) for storing n elements in the list.
+# tradeoffs: the deque is not as versatile as the list, it does not support indexing
