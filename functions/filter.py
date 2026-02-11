@@ -20,3 +20,5 @@ print(list(filter(lambda x: x % 2 == 0, lists)))
 print([x for x in lists if x % 2 == 0])
 
 
+
+

@@ -7,9 +7,9 @@
 from collections import defaultdict
 
 def findWinners(matches):
-    loss_count = defaultdict(int)
-    players = set()
-
+    loss_count = defaultdict(int)  # it will assign a default value of 0 to any key that is not present in the dictionary
+    players = set()   # it will assign a default value of an empty set to any key that is not present in the dictionary
+ 
     for winner, loser in matches:
         players.add(winner)
         players.add(loser)

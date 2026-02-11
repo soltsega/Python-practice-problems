@@ -34,3 +34,11 @@ def combined_example(*args, **kwargs):
 # calling the function with both args and kwargs
 combined_example(1, 2, 3, name="Bob", age=25)
 
+
+
+# 1.*args
+def argfun(*args):
+    pass
+
+
+
