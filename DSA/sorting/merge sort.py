@@ -16,8 +16,8 @@ def merge_sort(arr):
     right = merge_sort(arr[mid:])
 
     sorted_list = []
-    i = 0
-    j = 0
+    i = 0  # pointer for the left half of the array
+    j = 0  # pointer for the right half of the array
 
     while i < len(left) and j < len(right):
         if left[i] <= right[j]:
