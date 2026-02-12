@@ -6,7 +6,12 @@
 # merge sort is a good choice for sorting large datasets that do not fit in memory, as it can be implemented using an external sorting algorithm that uses disk storage to handle large datasets.
 
 
+# Time complexity: O(n log n) which is efficient as it is linearithmic
+# Space complexity: O(n) which is inefficient as it requires additional space for the temporary arrays.
 # the code implementation of merge sort in python
+
+
+# Assumption: the input array can contain duplicate elements. The merge sort algorithm will correctly sort the array even if it contains duplicate elements, as it compares the values of the elements and maintains their relative order in the sorted output. Therefore, the presence of duplicate elements does not affect the correctness of the merge sort algorithm.
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr

@@ -13,7 +13,8 @@ def selection_sort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
         # swap the found minimum element with the first unsorted element
-        arr[i], arr[min_index] = arr[min_index], arr[i]
+        if min_index != 1:
+            arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
 
 print(selection_sort([2,1,3,0,5,4]))

@@ -3,8 +3,8 @@
 # Time complexity: O(log n) which is efficient as it is logarithmic
 # Space complexity: O(1) which is efficient as it is an in-place algorithm
 
-
-
+# The return type of the binary search function is a tuple containing the path to the target value and a message indicating whether the value was found or not. The path to the target value is a list of values that were compared during the search process, which can be useful for understanding how the algorithm works and for debugging purposes. The message indicates whether the value was found at a specific index or if it was not found in the list.
+# Assumpiton: the input list is sorted in ascending order. If the input list is not sorted, the binary search algorithm will not work correctly and may return incorrect results. Therefore, it is important to ensure that the input list is sorted before using the binary search algorithm.
 # The implementation on binary search 
 def binary_search(search_list, value):
     path_to_target = []
