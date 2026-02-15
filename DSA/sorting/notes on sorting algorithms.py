@@ -15,6 +15,8 @@
 # 14. Gnome Sort: O(n^2) time complexity, O(1) space complexity, stable, in-place
 # 15. Bitonic Sort: O(n log^2 n) time complexity, O(n) space complexity, stable, not in-place
 # 16. Odd-Even Sort: O(n^2) time complexity, O(1) space complexity, stable, in-place
+# 17. Pancake Sort: O(n^2) time complexity, O(1) space complexity, stable, in-place
+# 18. Cycle Sort: O(n^2) time complexity, O(1) space complexity, not stable, in-place
 
 
 # Now let's rank them in terms of Time complexity: we will als consider the best, average and worst cases for each algorithm. but we first consider the worst case for each one then we will consider the best and average cases iif two algorithms have the same worst cases
